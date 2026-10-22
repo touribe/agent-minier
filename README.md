@@ -30,6 +30,14 @@ citations, puis met l'état à jour.
 - Ne pas ajouter une société sans au moins une source publique de ses résultats
   (newsroom, fil réglementaire ou presse spécialisée fiable).
 
+## Publication GitHub
+
+Ce dossier est le miroir d'un dépôt **privé** : `touribe/agent-minier`
+(https://github.com/touribe/agent-minier). Chaque bulletin produit est commité et
+poussé sur `main` (`git add -A && git commit -m "Bulletin AAAA-MM-JJ — n°NN" && git push`).
+L'authentification passe par `gh` (`~/bin/gh.exe`, compte `touribe`), déjà
+configurée pour git en HTTPS. `_work/` est exclu du versionnement.
+
 ## Automatisation
 
 Un job cron « Agent Minier — bulletin hebdo » tourne le lundi à 8h00 (heure
