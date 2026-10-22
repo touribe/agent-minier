@@ -1,0 +1,206 @@
+{
+  "agent": "Agent Minier",
+  "objet": "Publications des compagnies minières exerçant en Côte d'Ivoire — synthèse des résultats des travaux",
+  "cree_le": "2026-10-21",
+  "langue": "fr",
+  "fenetre_defaut_jours": 90,
+  "recouvrement_jours": 7,
+  "compagnies": [
+    {
+      "id": "endeavour",
+      "nom": "Endeavour Mining plc",
+      "tickers": ["LSE:EDV", "TSX:EDV", "OTCQX:EDVMF"],
+      "statut": "producteur",
+      "priorite": 1,
+      "actifs_ci": ["Ity (Daapleu, Floleu)", "Lafigué"],
+      "pays_autres": ["Burkina Faso", "Sénégal"],
+      "sites": {
+        "newsroom": "https://endeavourmining.com/news-and-media/news",
+        "portefeuille": "https://endeavourmining.com/our-portfolio/ity-mine",
+        "ir": "https://endeavourmining.com/investors"
+      },
+      "liens_pratiques": [
+        "https://www.globenewswire.com/en/search/organization/Endeavour%20Mining%20PLC",
+        "https://www.otcmarkets.com/stock/EDVMF/news"
+      ],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Extraction directe de endeavourmining.com souvent bloquee (certificat) — passer par GlobeNewswire/OTC Markets. Exercice clos en decembre."
+    },
+    {
+      "id": "allied",
+      "nom": "Allied Gold Corporation",
+      "tickers": ["TSX:AAUC", "NYSE:AAUC"],
+      "statut": "producteur",
+      "priorite": 1,
+      "actifs_ci": ["Bonikro (permis Hiré)", "Agbaou"],
+      "pays_autres": ["Mali (Sadiola)", "Éthiopie (Kurmuk)"],
+      "sites": {
+        "newsroom": "https://alliedgold.com/news/news/",
+        "ir": "https://alliedgold.com/investor-relations/investor-overview/",
+        "resultats": "https://alliedgold.com/investor-relations/financials/quarterly-results/default.aspx"
+      },
+      "liens_pratiques": ["https://s203.q4cdn.com/846800919/files/doc_financials/"],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Publie des resultats 'preliminary' de production en debut de trimestre suivant, puis les resultats complets. Zijin Gold est entre au capital (2026)."
+    },
+    {
+      "id": "perseus",
+      "nom": "Perseus Mining Limited",
+      "tickers": ["ASX:PRU", "TSX:PRU"],
+      "statut": "producteur",
+      "priorite": 1,
+      "actifs_ci": ["Yaouré (CMA underground)", "Sissingué"],
+      "pays_autres": ["Ghana (Edikan)", "Tanzanie (Nyanzaga)"],
+      "sites": {
+        "rapports": "https://perseusmining.com/reports/",
+        "annonces_asx": "https://perseusmining.com/asx-announcements/",
+        "operations": "https://perseusmining.com/our-operations/"
+      },
+      "liens_pratiques": [
+        "https://www.globenewswire.com/en/search/organization/Perseus%20Mining%20Limited",
+        "https://www.asx.com.au/markets/company/PRU"
+      ],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Exercice fiscal clos au 30 juin : T4 FY26 = avril-juin 2026. Rapports trimestriels + webinaire investisseurs."
+    },
+    {
+      "id": "fortuna",
+      "nom": "Fortuna Mining Corp.",
+      "tickers": ["NYSE:FSM", "TSX:FVI"],
+      "statut": "producteur",
+      "priorite": 1,
+      "actifs_ci": ["Séguéla"],
+      "pays_autres": ["Argentine (Lindero)", "Pérou (Caylloma)", "Côte d'Ivoire / Mali (Diamba Sud, en dev.)"],
+      "sites": {
+        "newsroom": "https://fortunamining.com/news",
+        "mine_seguela": "https://fortunamining.com/mine/seguela-mine-cote-divoire",
+        "ir": "https://fortunamining.com/investors"
+      },
+      "liens_pratiques": ["https://www.globenewswire.com/en/search/organization/Fortuna%20Mining%20Corp"],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Communique la production trimestrielle GEO par mine (tableau consolidé) — bon point d'entree pour Séguéla."
+    },
+    {
+      "id": "montage",
+      "nom": "Montage Gold Corp.",
+      "tickers": ["TSX:MAU", "OTCQX:MAUTF"],
+      "statut": "producteur (rampe)",
+      "priorite": 1,
+      "actifs_ci": ["Koné (première coulée 26/09/2026)", "Didiévi (exploration)"],
+      "pays_autres": [],
+      "sites": {
+        "news": "https://www.montagegold.com/news/",
+        "kone": "https://www.montagegold.com/portfolio/development/kone-project/"
+      },
+      "liens_pratiques": ["https://www.globenewswire.com/en/search/organization/Montage%20Gold%20Corp"],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Site montagegold.com heberge des PDF de communiques (_resources/news/AAAA/) souvent citables directement."
+    },
+    {
+      "id": "atlantic-tongon",
+      "nom": "Atlantic Group (Tongon)",
+      "tickers": [],
+      "statut": "producteur",
+      "priorite": 2,
+      "actifs_ci": ["Tongon"],
+      "pays_autres": ["présence panafricaine, 15 pays"],
+      "sites": {"newsroom": null},
+      "liens_pratiques": [],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Groupe privé : pas de newsroom publique connue. Tongon acquis de Barrick ($305 M, cloture dec. 2025). Chercher via presse specialisee + partenaires (Empress Royalty — stream de 62 M$ annonce le 19/10/2026)."
+    },
+    {
+      "id": "resolute",
+      "nom": "Resolute Mining Limited",
+      "tickers": ["ASX:RSG", "LSE:RSG"],
+      "statut": "construction",
+      "priorite": 2,
+      "actifs_ci": ["Doropo (construction, 1re coulée visée H1 2028)"],
+      "pays_autres": ["Mali (Syama)", "Sénégal (Mako)"],
+      "sites": {
+        "newsroom": "https://www.rml.com.au/news/",
+        "doropo": "https://www.rml.com.au/assets/doropo-cote-divoire/"
+      },
+      "liens_pratiques": ["https://www.asx.com.au/markets/company/RSG"],
+      "reseaux": {"linkedin": "https://www.linkedin.com/company/resolute-mining", "facebook": null, "verifies": false},
+      "note": "rml.com.au bloque souvent l'extraction directe ; passer par les annonces ASX (PDF announcements.asx.com.au) ou LinkedIn (posts indexes)."
+    },
+    {
+      "id": "tietto",
+      "nom": "Tietto Minerals (contrôlée par Zhaojin Mining)",
+      "tickers": ["Zhaojin: 1818.HK"],
+      "statut": "producteur",
+      "priorite": 2,
+      "actifs_ci": ["Abujar (Zoukougbeu)"],
+      "pays_autres": [],
+      "sites": {"news": "https://www.tietto.com/news/"},
+      "liens_pratiques": ["https://www.asx.com.au/markets/company/TIE"],
+      "reseaux": {"linkedin": "https://au.linkedin.com/company/tietto-minerals-ltd", "facebook": null, "verifies": false},
+      "note": "Communication tres faible depuis le rachat par Zhaojin (2024). Tietto a quitte la cote ASX : chercher cote Zhaojin (HKEX) et presse ivoirienne."
+    },
+    {
+      "id": "cml",
+      "nom": "Compagnie Minière du Littoral (CML)",
+      "tickers": [],
+      "statut": "producteur (manganèse)",
+      "priorite": 3,
+      "actifs_ci": ["Lauzoua (manganèse)"],
+      "pays_autres": [],
+      "sites": {"site": "https://cml-ci.com/", "actualites": "https://cml-ci.com/actualites/"},
+      "liens_pratiques": ["https://dgpe.gouv.ci/fr/entreprises/cml"],
+      "reseaux": {"linkedin": null, "facebook": "https://www.facebook.com/profile.php?id=61569041829098", "verifies": true},
+      "note": "Societe d'Etat (SODEMI + partenaire chinois). Rapport annuel DGPE = principale source de chiffres."
+    },
+    {
+      "id": "sinico",
+      "nom": "Sipilou Nickel Company (SiNiCo)",
+      "tickers": [],
+      "statut": "developpement",
+      "priorite": 3,
+      "actifs_ci": ["Sipilou (nickel/cobalt)"],
+      "pays_autres": [],
+      "sites": {"site": "https://sipilounickel.com"},
+      "liens_pratiques": [],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Projet MHP 40 000 t/an. Financement EBRD/Polynickel (2026) — suivre presse financiere."
+    },
+    {
+      "id": "leb",
+      "nom": "Lagune Exploitation Bongouanou (LEB)",
+      "tickers": [],
+      "statut": "producteur (bauxite)",
+      "priorite": 3,
+      "actifs_ci": ["Bongouanou (bauxite)"],
+      "pays_autres": [],
+      "sites": {"site": "http://leb-ci.com/en"},
+      "liens_pratiques": [],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Communication institutionnelle uniquement, peu de chiffres."
+    },
+    {
+      "id": "juniors",
+      "nom": "Juniors d'exploration",
+      "tickers": ["Kobo Resources", "Turaco Gold (Afema)", "autres"],
+      "statut": "exploration",
+      "priorite": 3,
+      "actifs_ci": ["Kobo (Boundiali/Katiola)", "Afema"],
+      "pays_autres": [],
+      "sites": {},
+      "liens_pratiques": [],
+      "reseaux": {"linkedin": null, "facebook": null, "verifies": false},
+      "note": "Section 'exploration' du bulletin : resultats de forage, ressources, accords. Ne pas melanger avec les producteurs."
+    }
+  ],
+  "sources_transverses": [
+    {"nom": "Portail economie ivoirienne (production d'or, chiffres DGMG)", "url": "https://www.economie-ivoirienne.ci/activites-sectorielles/production-dor.html"},
+    {"nom": "Ministere des Mines / energie.gouv.ci", "url": "https://energie.gouv.ci/actualite"},
+    {"nom": "GlobeNewswire (depêches société)", "url": "https://www.globenewswire.com/"},
+    {"nom": "Mining Weekly", "url": "https://www.miningweekly.com/"},
+    {"nom": "Ecofin Agency (secteur minier africain, FR)", "url": "https://www.ecofinagency.com/"},
+    {"nom": "Sikafinance (économie ivoirienne, FR)", "url": "https://www.sikafinance.com/"},
+    {"nom": "Abidjan.net (presse locale)", "url": "https://news.abidjan.net/"},
+    {"nom": "DGPE (sociétés d'État)", "url": "https://dgpe.gouv.ci/fr/entreprises"}
+  ],
+  "categories_suivies": ["production", "coûts/AISC", "guidance", "projets et jalons", "securite/ESG", "capital (M&A, financement)", "permis et fiscalite"],
+  "seuil_materialite": "Retenir toute publication d'une societe suivie qui contient un chiffre de production/coût, un jalon de projet date, un evenement de securite, ou une operation capitalistique. Ecarter : interviews sans fait nouveau, reprises d'agence, commentaires de cours."
+}

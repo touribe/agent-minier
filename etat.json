@@ -1,0 +1,62 @@
+{
+  "agent": "Agent Minier",
+  "cree_le": "2026-10-21",
+  "derniere_execution": "2026-10-21",
+  "cutoff": "2026-10-21",
+  "executions": [
+    {
+      "date": "2026-10-21",
+      "rapport": "rapports/2026-10-21_bulletin-01.md",
+      "couvert": [
+        "economie-ivoirienne.ci",
+        "globenewswire.com",
+        "miningweekly.com",
+        "minenportal.de",
+        "q4cdn.com (Allied)",
+        "yahoo/zacks (Tongon)",
+        "kalkine.com.au"
+      ],
+      "echecs": [
+        "endeavourmining.com (certificat)",
+        "tietto.com",
+        "rml.com.au",
+        "perseusmining.com/reports",
+        "barrick.com",
+        "PDF S3 Endeavour",
+        "newswire/tradingview (Empress)"
+      ],
+      "muettes": [
+        "Atlantic Group (Tongon)",
+        "Tietto/Zhaojin (Abujar)",
+        "SiNiCo",
+        "LEB",
+        "CML"
+      ]
+    }
+  ],
+  "sources_ok": [
+    "economie-ivoirienne.ci",
+    "globenewswire.com",
+    "miningweekly.com",
+    "minenportal.de",
+    "q4cdn.com (Allied)",
+    "yahoo/zacks (Tongon)",
+    "kalkine.com.au"
+  ],
+  "sources_en_echec": [
+    "endeavourmining.com (certificat)",
+    "tietto.com",
+    "rml.com.au",
+    "perseusmining.com/reports",
+    "barrick.com",
+    "PDF S3 Endeavour",
+    "newswire/tradingview (Empress)"
+  ],
+  "compagnies_muettes": [
+    "Atlantic Group (Tongon)",
+    "Tietto/Zhaojin (Abujar)",
+    "SiNiCo",
+    "LEB",
+    "CML"
+  ]
+}

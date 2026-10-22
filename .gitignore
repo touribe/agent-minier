@@ -1,0 +1,9 @@
+# Baux de travail : pages brutes récupérées, ledgers de citations, recherches intermédiaires.
+# Les sources définitives figurent dans le bloc « Sources » de chaque bulletin.
+_work/
+
+# Divers
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
